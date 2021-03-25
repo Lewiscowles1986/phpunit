@@ -19,6 +19,16 @@
     "support": {
         "issues": "https://github.com/sebastianbergmann/phpunit/issues"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/Lewiscowles1986/version",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Lewiscowles1986/manifest",
+            "type": "git"
+        }
+    ],
     "prefer-stable": true,
     "require": {
         "php": "^7.0 || ^8.0",
@@ -28,8 +38,8 @@
         "ext-mbstring": "*",
         "ext-xml": "*",
         "myclabs/deep-copy": "^1.6.1",
-        "phar-io/manifest": "^1.0.1",
-        "phar-io/version": "^1.0",
+        "phar-io/manifest": "dev-fork/1.0.4-lc as 1.0.4",
+        "phar-io/version": "dev-fork/2.0.2-lc as 2.0.2",
         "phpspec/prophecy": "^1.7",
         "phpunit/php-code-coverage": "^5.3",
         "phpunit/php-file-iterator": "^1.4.3",
