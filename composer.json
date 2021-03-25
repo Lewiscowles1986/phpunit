@@ -27,6 +27,10 @@
         {
             "url": "https://github.com/Lewiscowles1986/manifest",
             "type": "git"
+        },
+        {
+            "url": "https://github.com/Lewiscowles1986/php-code-coverage",
+            "type": "git"
         }
     ],
     "prefer-stable": false,
@@ -41,7 +45,7 @@
         "phar-io/manifest": "dev-fork/1.0.4-lc as 1.0.4",
         "phar-io/version": "dev-fork/2.0.2-lc as 2.0.2",
         "phpspec/prophecy": "^1.7",
-        "phpunit/php-code-coverage": "^5.3",
+        "phpunit/php-code-coverage": "dev-fork/5.3.3-lc as 5.3.3",
         "phpunit/php-file-iterator": "^1.4.3",
         "phpunit/php-text-template": "^1.2.1",
         "phpunit/php-timer": "^1.0.9",
